@@ -1,0 +1,43 @@
+* a {
+    text-decoration: none;
+}
+.pink {
+    background-color: rgb(245, 149, 197);
+    color:deeppink;
+}
+.imgTejidos {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-top: 1rem;
+    }
+.card {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+}
+.botonCreado {
+    color: white;
+    background-color: deeppink;
+}
+.botonCreado:hover {
+    background-color: blueviolet;
+    color: white
+}
+.portada {
+    height: 60vh;
+    background-image: url(../img/portada.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-link:hover {
+    background-color:rgb(245, 149, 197) ;
+}
+.nav__foot a {
+    color: #ffffff;
+}
+
+.nav__foot a:hover {
+    color: darkmagenta;
+}
